@@ -7,8 +7,7 @@ Note that this repo is anonymous and only intended for **review** purpose only.
 
 ## Introduction
 
-We show how to achieve metric-based local DP (LDP) by sanitizing *sentence embedding (and labels)*
-(as opposed to *gradients* in DP-SGD) when fine-tuning pre-trained language models like BERT.
+We propose DP-Forward, which perturbs embedding matrices in the forward pass of LMs and ensures local DP for training (and test) data.
 
 <p align="center">
 <img src="img.png" alt="" width="800" title="Sanitizing sentence embeddings (and labels) under local DP for BERT-based NLP pipelines"/>
