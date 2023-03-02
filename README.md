@@ -1,4 +1,4 @@
-# Sentence-LDP
+# DP-Forward
 
 Code for the CCS'23 submission 
 "DP-Forward: Fine-tuning and Inference on Language Models with Differential Privacy in Forward Pass"
@@ -11,7 +11,7 @@ We show how to achieve metric-based local DP (LDP) by sanitizing *sentence embed
 (as opposed to *gradients* in DP-SGD) when fine-tuning pre-trained language models like BERT.
 
 <p align="center">
-<img src="img.png" alt="" width="500" title="Sanitizing sentence embeddings (and labels) under local DP for BERT-based NLP pipelines"/>
+<img src="img.png" alt="" width="800" title="Sanitizing sentence embeddings (and labels) under local DP for BERT-based NLP pipelines"/>
 </p>
 
 ## Setup Environment
