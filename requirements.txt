@@ -1,0 +1,8 @@
+torch>=1.9.0
+numpy
+tqdm
+scipy
+scikit-learn
+spacy
+transformers>=4.14.0
+datasets>=1.8.0
