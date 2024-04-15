@@ -239,7 +239,7 @@ def main():
 
     config = BertConfig.from_pretrained(args.model_name_or_path)
     tokenizer = BertTokenizer.from_pretrained(args.model_name_or_path)
-    model = BertForSequenceClassificationLDP.from_pretrained(args.model_name_or_path, config=config)
+    model = BertForSequenceClassification.from_pretrained(args.model_name_or_path, config=config)
 
     train_dataset, dev_dataset, test_dataset = load_and_process_datasets(tokenizer, labels, overwrite_cache=False)
 
